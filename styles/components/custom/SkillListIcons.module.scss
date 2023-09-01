@@ -2,39 +2,46 @@
 @use "../../partials/general-mixins";
 @use "../../partials/media-queries-mixins";
 
+.animation-section {
+  display: flex;
+  &:hover {
+    .skills-section {
+      animation-play-state: paused;
+    }
+  }
+}
+
 .skills-section {
   @include general-mixins.displayFlex(space-evenly, center);
-  flex-wrap: wrap;
   margin-top: 1rem;
-  font-family: variables.$arty;
+  font-family: variables.$futuristic;
   color: variables.$highlight-text;
+  animation: 35s moviment infinite linear;
+  @keyframes moviment {
+    from {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(-100%);
+    }
+  }
   &__block {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 4rem;
-    height: 5rem;
+    margin: 0 1rem;
     padding: 0.5rem 1rem;
-    border: 1px solid white;
-    border-radius: 5px;
-    box-shadow: 5px 3px 9px white;
-    // animation: updown 1s infinite  alternate;
-    // animation-delay: 1s;
-    // @keyframes updown {
-    //     0% { transform: translateY(0); }
-    //     100% { transform: translateY(-10px); }
-    // }
     &--icons {
       width: auto;
       height: 3.8rem;
     }
     &--express {
-      margin: 0.2rem 0;
+      margin: 0.4rem 0;
       width: auto;
-      height: 3rem;     
+      height: 3rem;
     }
     &--title {
-      font-size: 1.4rem;
+      font-size: 0.9rem;
       @include media-queries-mixins.mediaIconTitle();
     }
   }
