@@ -1,0 +1,23 @@
+@use "./partials/variables";
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0 4rem;
+  @media (max-width: 472px) {
+    padding: 0 2rem;
+  }
+  background-color: variables.$site-background;
+  font-family: variables.$default;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

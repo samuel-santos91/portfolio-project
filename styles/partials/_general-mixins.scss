@@ -1,0 +1,137 @@
+@use "./variables";
+
+//LOGO
+@mixin stroke() {
+  stroke: variables.$logo;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+}
+@mixin logoHeader() {
+  .logo-section {
+    a {
+      width: 2.5rem;
+      height: 2.5rem;
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: none;
+        &:hover {
+          fill: variables.$logo-hover;
+        }
+        circle {
+          stroke: variables.$logo;
+        }
+        text {
+          stroke: variables.$logo;
+          fill: variables.$logo;
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
+}
+
+//BLURRED BACKGROUND HEADERS
+@mixin blurredBackground() {
+  background-color: variables.$site-background-transparent;
+  backdrop-filter: blur(2px);
+}
+
+//POSITION
+@mixin positionFixedTop() {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+@mixin positionFixedBottom() {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+//DISPLAY
+@mixin displayFlex($just, $align) {
+  display: flex;
+  justify-content: $just;
+  align-items: $align;
+}
+
+//BUTTONS
+@mixin buttonStyle() {
+  border: variables.$logo 1px solid;
+  border-radius: 5px;
+  color: variables.$logo;
+  &:hover {
+    background-color: variables.$logo-hover;
+    cursor: pointer;
+  }
+}
+@mixin resumeButton($margin-right) {
+  margin-right: $margin-right;
+  padding: 0.7rem 1.5rem;
+  @include buttonStyle();
+}
+@mixin sendEmailButton() {
+  margin: 2rem;
+  padding: 1.5rem 2rem;
+  @include buttonStyle();
+}
+
+//IMAGE SIZE
+@mixin imageSize() {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 10px;
+}
+
+//SECTIONS
+@mixin sectionTitle() {
+  .section-header {
+    @include displayFlex(flex-start, center);
+    &__title {
+      font-size: 1.8rem;
+      color: variables.$regular-text;
+      margin: 0;
+      white-space: nowrap;
+    }
+    hr {
+      width: 100%;
+      margin-left: 1rem;
+      border-style: solid;
+      color: variables.$highlight-text;
+      border-width: 0.1px;
+      height: 0;
+    }
+  }
+}
+@mixin sectionDisplay() {
+  display: flex;
+  flex-direction: column;
+  padding: variables.$between-sections;
+}
+
+//SOCIAL MEDIA (AND WEB) ICONS
+@mixin iconTag($transform) {
+  a {
+    svg {
+      fill: variables.$highlight-text;
+      transition: transform 0.7s;
+      &:hover {
+        fill: variables.$logo;
+        transform: $transform;
+      }
+    }
+  }
+}
+@mixin iconWebTag() {
+  a {
+    svg {
+      stroke: variables.$highlight-text;
+      transition: transform 0.7s;
+      &:hover {
+        stroke: variables.$logo;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
