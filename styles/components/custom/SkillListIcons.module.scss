@@ -16,7 +16,7 @@
   margin-top: 1rem;
   font-family: variables.$futuristic;
   color: variables.$highlight-text;
-  animation: 35s moviment infinite linear;
+  animation: 40s moviment infinite linear;
   @keyframes moviment {
     from {
       transform: translate(0);
@@ -34,6 +34,14 @@
     &--icons {
       width: auto;
       height: 3.8rem;
+    }
+    &--next {
+      margin: 0.3rem 0;
+      width: auto;
+      height: 3rem;
+      border-radius: 50%;
+      border: 1px solid white;
+      background-color: white;
     }
     &--express {
       margin: 0.4rem 0;

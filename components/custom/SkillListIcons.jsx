@@ -10,6 +10,7 @@ import react from "@/public/assets/skills/react.png";
 import node from "@/public/assets/skills/node.png";
 import express from "@/public/assets/skills/express.png";
 import mysql from "@/public/assets/skills/mysql.png";
+import next from "@/public/assets/skills/next.png";
 
 import classes from "@/styles/components/custom/SkillListIcons.module.scss";
 
@@ -19,9 +20,9 @@ const SkillListIcons = () => {
     <div className={classes["animation-section"]}>
       <section className={classes["skills-section"]}>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="250"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -35,9 +36,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="350"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -51,9 +52,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="450"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -67,9 +68,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="550"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -83,8 +84,8 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
           data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
@@ -99,9 +100,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="750"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -115,9 +116,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="850"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -131,9 +132,25 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="950"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--next"]}
+            src={next}
+            alt="next.js"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            Next.js
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -147,9 +164,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="1050"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -163,9 +180,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="1100"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -179,11 +196,12 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
       </section>
+
       <section className={classes["skills-section"]}>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="250"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -197,9 +215,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="350"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -213,9 +231,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="450"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -229,9 +247,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="550"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -245,8 +263,8 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
           data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
@@ -261,9 +279,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="750"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -277,9 +295,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="850"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -293,9 +311,25 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="950"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--next"]}
+            src={next}
+            alt="next.js"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            Next.js
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -309,9 +343,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="1050"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
@@ -325,9 +359,9 @@ const SkillListIcons = () => {
           </figcaption>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="1100"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
           data-aos-anchor-placement="top-bottom"
           className={classes["skills-section__block"]}
         >
