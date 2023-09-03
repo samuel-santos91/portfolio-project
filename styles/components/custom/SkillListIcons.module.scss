@@ -3,16 +3,49 @@
 @use "../../partials/media-queries-mixins";
 
 .animation-section {
+  @include media-queries-mixins.mediaAnimationSection(100%);  
+  position: relative;
   display: flex;
+  overflow: hidden;
+  width: 60rem;
+  margin: auto;
   &:hover {
     .skills-section {
       animation-play-state: paused;
     }
   }
+  &::before,
+  &::after {
+    @include media-queries-mixins.mediaAnimationSection(20vw); 
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 20rem;
+    height: 100%;
+    z-index: 1;
+  }
+  &::before {
+    left: 0;
+    background: linear-gradient(
+      to right,
+      variables.$site-background,
+      transparent
+    );
+  }
+  &::after {
+    right: 0;
+    background: linear-gradient(
+      to left,
+      variables.$site-background,
+      transparent
+    );
+  }
 }
 
 .skills-section {
   @include general-mixins.displayFlex(space-evenly, center);
+  @include media-queries-mixins.mediaAnimationSpeed(); 
+  position: relative;
   margin-top: 1rem;
   font-family: variables.$futuristic;
   color: variables.$highlight-text;
@@ -50,7 +83,6 @@
     }
     &--title {
       font-size: 0.9rem;
-      @include media-queries-mixins.mediaIconTitle();
     }
   }
 }

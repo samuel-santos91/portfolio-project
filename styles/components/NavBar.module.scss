@@ -10,7 +10,7 @@
   font-size: 0.9rem;
   width: 100%;
   padding: 1rem 3rem;
-  z-index: 1;
+  z-index: 2;
 
   .link-section {
     @include general-mixins.displayFlex(none, center);
