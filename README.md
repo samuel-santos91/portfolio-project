@@ -26,7 +26,8 @@ This project was built with Next.js and stylled with Sass.
 <img width="500" alt="Screenshot 2023-09-01 at 15 54 09" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/ee8c6271-32de-40bd-a79d-45251681b817"> <br>
 
 ### About
-<img width="500" alt="Screenshot 2023-09-03 at 21 52 37" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/28a4126a-4d79-4308-b71f-d54e4007987e">
+<img width="500" alt="Screenshot 2023-09-03 at 23 47 00" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/23b4a246-ecc9-45d1-9887-7c74cd3b32f1">
+
 
 ### Projects
 <img width="500" alt="Screenshot 2023-09-01 at 15 54 53" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/fb176a53-78dc-409a-b2e4-c4abee92e4f8"> <br>
