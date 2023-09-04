@@ -2,7 +2,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { TbArchive } from "react-icons/tb";
 import { MdOutlineMail } from "react-icons/md";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import resume from "@/public/assets/pdf/resume.pdf";
 import classes from "@/styles/components/NavBarMobile.module.scss";
