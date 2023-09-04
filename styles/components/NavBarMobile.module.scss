@@ -90,22 +90,23 @@
   }
 }
 
-// .visibleH {
-//   top: 0;
-//   transition: top 0.4s ease-out;
-// }
+// NAVBAR BEHAVIOUR
+.visibleH {
+  top: 0;
+  transition: top 0.4s ease-out;
+}
 
-// .hiddenH {
-//   top: -80px;
-//   transition: top 0.4s ease-out;
-// }
+.hiddenH {
+  top: -80px;
+  transition: top 0.4s ease-out;
+}
 
-// .visibleF {
-//   bottom: 0;
-//   transition: bottom 0.4s ease-out;
-// }
+.visibleF {
+  bottom: 0;
+  transition: bottom 0.4s ease-out;
+}
 
-// .hiddenF {
-//   bottom: -80px;
-//   transition: bottom 0.4s ease-out;
-// }
+.hiddenF {
+  bottom: -80px;
+  transition: bottom 0.4s ease-out;
+}

@@ -2,35 +2,31 @@ import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { TbArchive } from "react-icons/tb";
 import { MdOutlineMail } from "react-icons/md";
-// import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import resume from "@/public/assets/pdf/resume.pdf";
 import classes from "@/styles/components/NavBarMobile.module.scss";
 
 const NavBarMobile = () => {
-  // //HIDE HEADER WHEN SCROLLING
-  // const [position, setPosition] = useState(window.pageYOffset);
-  // const [visible, setVisible] = useState(true);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     let moving = window.pageYOffset;
+  //HIDE NAVBAR WHEN SCROLLING
+  const [position, setPosition] = useState(window.scrollY);
+  const [visible, setVisible] = useState(true);
 
-  //     setVisible(position > moving);
-  //     setPosition(moving);
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // });
+  const handleScroll = () => {
+    let moving = window.scrollY;
 
-  // const header = visible ? classes.visibleH : classes.hiddenH;
-  // const footer = visible ? classes.visibleF : classes.hiddenF;
-  //add header to main tag
-  //add footer to bottom tag
+    setVisible(position > moving);
+    setPosition(moving);
+  };
+  window.addEventListener("scroll", handleScroll);
+
+  const headerScroll = visible ? classes.visibleH : classes.hiddenH;
+  const footerScroll = visible ? classes.visibleF : classes.hiddenF;
+  ////
+
   return (
     <nav>
-      <header className={classes.header}>
+      <header className={`${headerScroll} ${classes.header}`}>
         <section className={classes["logo-section"]}>
           <a href="" aria-label="logo">
             <svg
@@ -52,7 +48,7 @@ const NavBarMobile = () => {
         </section>
       </header>
 
-      <footer className={classes.footer}>
+      <footer className={`${footerScroll} ${classes.footer}`}>
         <div className={classes["icons-section"]}>
           <div
             className={`${classes["icons-section--icons"]} ${classes["icons-section--home"]}`}

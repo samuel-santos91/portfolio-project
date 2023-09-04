@@ -1,29 +1,26 @@
-// import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
-import resume from "@/public/assets/pdf/resume.pdf"
+import resume from "@/public/assets/pdf/resume.pdf";
 import classes from "@/styles/components/NavBar.module.scss";
 
 const NavBar = () => {
-  // //HIDE HEADER WHEN SCROLLING
-  // const [position, setPosition] = useState(window.pageYOffset);
-  // const [visible, setVisible] = useState(true);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     let moving = window.pageYOffset;
+  //HIDE NAVBAR WHEN SCROLLING
+  const [position, setPosition] = useState(window.scrollY);
+  const [visible, setVisible] = useState(true);
 
-  //     setVisible(position > moving);
-  //     setPosition(moving);
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // });
-  // const header = visible ? classes.visible : classes.hidden;
-  //add class to main tag
+  const handleScroll = () => {
+    let moving = window.scrollY;
+
+    setVisible(position > moving);
+    setPosition(moving);
+  };
+  window.addEventListener("scroll", handleScroll);
+
+  const navbar = visible ? classes.visible : classes.hidden;
+  ////
 
   return (
-    <nav className={classes.navigation}>
+    <nav className={`${classes.navigation} ${navbar}`}>
       <section className={classes["logo-section"]}>
         <a href="" aria-label="logo">
           <svg

@@ -77,12 +77,13 @@
   @include media-queries-mixins.mediaNav();
 }
 
-// .visible {
-//   top: 0;
-//   transition: top 0.4s ease-out;
-// }
+// NAVBAR BEHAVIOUR
+.visible {
+  top: 0;
+  transition: top 0.4s ease-out;
+}
 
-// .hidden {
-//   top: -80px;
-//   transition: top 0.4s ease-out;
-// }
+.hidden {
+  top: -80px;
+  transition: top 0.4s ease-out;
+}
