@@ -4,7 +4,7 @@
 
 .navigation {
   @include general-mixins.blurredBackground;
-  @include general-mixins.positionFixedTop;
+  @include general-mixins.positionFixed(0, none);
   @include general-mixins.displayFlex(space-between, center);
   @include general-mixins.logoHeader;
   font-size: 0.9rem;

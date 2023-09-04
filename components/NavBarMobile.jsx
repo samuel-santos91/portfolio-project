@@ -2,27 +2,31 @@ import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { TbArchive } from "react-icons/tb";
 import { MdOutlineMail } from "react-icons/md";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import resume from "@/public/assets/pdf/resume.pdf";
 import classes from "@/styles/components/NavBarMobile.module.scss";
 
 const NavBarMobile = () => {
-  //HIDE NAVBAR WHEN SCROLLING
-  const [position, setPosition] = useState(window.scrollY);
+  const [position, setPosition] = useState(0);
   const [visible, setVisible] = useState(true);
 
-  const handleScroll = () => {
-    let moving = window.scrollY;
+  useEffect(() => {
+    const handleScroll = () => {
+      let moving = window.scrollY;
 
-    setVisible(position > moving);
-    setPosition(moving);
-  };
-  window.addEventListener("scroll", handleScroll);
+      setVisible(position > moving);
+      setPosition(moving);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
 
   const headerScroll = visible ? classes.visibleH : classes.hiddenH;
   const footerScroll = visible ? classes.visibleF : classes.hiddenF;
-  ////
 
   return (
     <nav>

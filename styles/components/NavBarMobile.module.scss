@@ -3,7 +3,7 @@
 @use "../partials/media-queries-mixins";
 
 .header {
-  @include general-mixins.positionFixedTop;
+  @include general-mixins.positionFixed(0, none);
   @include general-mixins.blurredBackground;
   @include general-mixins.displayFlex(space-between, none);
   @include general-mixins.logoHeader();
@@ -16,7 +16,7 @@
     @include general-mixins.resumeButton(2rem);
     @include media-queries-mixins.mediaHeaderResume();
     font-family: variables.$futuristic;
-    animation: fadein 1.6s ease-in;
+    animation: fadein 1.6s ease-in; 
     @keyframes fadein {
       0% {
         opacity: 0;
@@ -32,7 +32,7 @@
 }
 
 .footer {
-  @include general-mixins.positionFixedBottom;
+  @include general-mixins.positionFixed(none, 0);
   @include general-mixins.blurredBackground;
   @include media-queries-mixins.mediaFooter();
   z-index: 2;

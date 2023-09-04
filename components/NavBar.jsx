@@ -1,23 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import resume from "@/public/assets/pdf/resume.pdf";
 import classes from "@/styles/components/NavBar.module.scss";
 
 const NavBar = () => {
-  //HIDE NAVBAR WHEN SCROLLING
-  const [position, setPosition] = useState(window.scrollY);
+  const [position, setPosition] = useState(0); 
   const [visible, setVisible] = useState(true);
 
-  const handleScroll = () => {
-    let moving = window.scrollY;
+  useEffect(() => {
+    const handleScroll = () => {
+      let moving = window.scrollY;
 
-    setVisible(position > moving);
-    setPosition(moving);
-  };
-  window.addEventListener("scroll", handleScroll);
+      setVisible(position > moving);
+      setPosition(moving);
+    };
+    
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
 
   const navbar = visible ? classes.visible : classes.hidden;
-  ////
 
   return (
     <nav className={`${classes.navigation} ${navbar}`}>

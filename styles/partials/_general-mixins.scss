@@ -38,14 +38,10 @@
 }
 
 //POSITION
-@mixin positionFixedTop() {
+@mixin positionFixed($top, $bottom) {
   position: fixed;
-  top: 0;
-  left: 0;
-}
-@mixin positionFixedBottom() {
-  position: fixed;
-  bottom: 0;
+  top: $top;
+  bottom: $bottom;
   left: 0;
 }
 
