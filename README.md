@@ -1,9 +1,10 @@
 # Portfolio Project
 
 ## Description 
-This project was built with Next.js and stylled with Sass.
+* This project was built to display my projects and technologies I have been working with.
+* Built with <strong>Next.js</strong> and stylled with <strong>Sass</strong>.
 
-## Usage
+## About
 * There are four different sections in this webpage:
   * Intro;
   * About;
@@ -35,7 +36,8 @@ This project was built with Next.js and stylled with Sass.
 ### Contact
 <img width="500" alt="Screenshot 2023-09-01 at 15 55 07" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/57c42af4-6a18-4b2c-92e9-1d7c6dd66802"> <br><br>
 
-## Built with Next.js
+## Live Version
+Link: <a>https://sam-portfolio-project.vercel.app/</a>
 
 ## Prerequisites
 
