@@ -32,7 +32,7 @@ const NavBarMobile = () => {
     <nav>
       <header className={`${headerScroll} ${classes.header}`}>
         <section className={classes["logo-section"]}>
-          <a href="" aria-label="logo">
+          <a href="#" aria-label="logo">
             <svg
               viewBox="0 0 80 80"
               xmlns="http://www.w3.org/2000/svg"
