@@ -8,13 +8,6 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 
 export default function Home() {
-  // //COUNTDOWN TO LOAD INTRO
-  // const [isVisible, setIsVisible] = useState(false);
-  // const loadIntro = () => {
-  //   setIsVisible(true);
-  // };
-  // setTimeout(loadIntro, 4500);
-
   return (
     <>
       <Head>
@@ -27,8 +20,8 @@ export default function Home() {
       <NavBarMobile />
       <Intro />
       <About />
-      <Projects/>
-      <Contact/>
+      <Projects />
+      <Contact />
     </>
   );
 }

@@ -5,25 +5,25 @@ import PetSitting from "./project-components/PetSitting";
 import FoodOrdering from "./project-components/FoodOrdering";
 import Dictionary from "./project-components/Dictionary";
 import TaskList from "./project-components/TaskList";
-import LandingPage from "./project-components/LandingPage";
+import BookSearchEngine from "./project-components/BookSearchEngine";
 
 const Projects = () => {
   return (
-    <div id="projects" className={classes.projects}>
-      <header className={classes["section-header"]}>
+    <main id="projects" className={classes.projects}>
+      <section className={classes["section-header"]}>
         <h2 className={classes["section-header__title"]}>Projects </h2>
         <hr />
-      </header>
+      </section>
 
-      <main>
+      <section>
         <PetSitting />
-        <FoodOrdering />
-        <Dictionary />
+        <BookSearchEngine />
         <TaskList />
-        <LandingPage />
-      </main>
+        <Dictionary />
+        <FoodOrdering />
+      </section>
 
-      <footer className={classes["visit-github-section"]}>
+      <section className={classes["visit-github-section"]}>
         <h4 className={classes["visit-github-section__header"]}>
           Visit my{" "}
           <span
@@ -52,8 +52,8 @@ const Projects = () => {
             <BsGithub size={30} aria-label="github link" />
           </a>
         </div>
-      </footer>
-    </div>
+      </section>
+    </main>
   );
 };
 

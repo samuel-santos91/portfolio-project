@@ -2,7 +2,7 @@ import classes from "@/styles/components/Intro.module.scss";
 
 const Intro = () => {
   return (
-    <main id="intro" className={classes.intro}>
+    <div id="intro" className={classes.intro}>
       <section className={classes.info}>
         <p className={classes["info__para"]}>Hello, I am</p>
         <h1 className={classes["info__header1"]}>Samuel Santos.</h1>
@@ -42,7 +42,7 @@ const Intro = () => {
           </i>
         </p>
       </section>
-    </main>
+    </div>
   );
 };
 

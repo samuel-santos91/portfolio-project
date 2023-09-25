@@ -3,13 +3,13 @@ import SocialMediaIcons from "./custom/SocialMediaIcons";
 
 const Contact = () => {
   return (
-    <div id="contact" className={classes.contact}>
-      <header className={classes["section-header"]}>
+    <footer id="contact" className={classes.contact}>
+      <section className={classes["section-header"]}>
         <h2 className={classes["section-header__title"]}>Contact </h2>
         <hr />
-      </header>
+      </section>
 
-      <main className={classes["contact-main"]}>
+      <section className={classes["contact-main"]}>
         <h3 className={classes["contact-main__title"]}>
           What's the next move?
         </h3>
@@ -40,8 +40,8 @@ const Contact = () => {
         </a>
 
         <SocialMediaIcons />
-      </main>
-    </div>
+      </section>
+    </footer>
   );
 };
 

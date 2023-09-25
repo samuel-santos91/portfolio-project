@@ -9,10 +9,5 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
   }, []);
-
-  // setTimeout(() => {
-  //   AOS.refresh();
-  // }, 500);
-
   return <Component {...pageProps} />;
 }

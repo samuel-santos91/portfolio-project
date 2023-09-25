@@ -9,12 +9,12 @@ import SkillListIcons from "./custom/SkillListIcons";
 const About = () => {
   return (
     <div id="about" className={classes.about}>
-      <header className={classes["section-header"]}>
+      <section className={classes["section-header"]}>
         <h2 className={classes["section-header__title"]}>About Me </h2>
         <hr />
-      </header>
+      </section>
 
-      <main className={classes["about-main"]}>
+      <section className={classes["about-main"]}>
         <section className={classes["about-main__image-and-icons"]}>
           <div data-aos="fade-up" data-aos-duration="1200">
             <Image
@@ -91,11 +91,11 @@ const About = () => {
             Technologies I have been working with:
           </p>
         </section>
-      </main>
+      </section>
 
-      <footer>
+      <section>
         <SkillListIcons />
-      </footer>
+      </section>
     </div>
   );
 };
