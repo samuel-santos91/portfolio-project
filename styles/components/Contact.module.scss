@@ -1,0 +1,38 @@
+@use "../partials/variables";
+@use "../partials/general-mixins";
+@use "../partials/media-queries-mixins";
+
+.contact {
+  @include general-mixins.sectionDisplay();
+  @include general-mixins.sectionTitle();
+
+  .contact-main {
+    @include general-mixins.displayFlex(none, center);
+    flex-direction: column;
+    margin: variables.$top-section;
+    &__title {
+      font-size: 1.5rem;
+      color: variables.$regular-text;
+    }
+    &__para {
+      width: 26rem;
+      text-align: center;
+      color: variables.$highlight-text;
+      line-height: variables.$space-between-lines;
+      @include media-queries-mixins.mediaTextSection();
+      &--highlight {
+        color: variables.$logo;
+      }
+      &--link {
+        color: variables.$logo;
+        &:hover {
+          color: variables.$link-hover;
+        }
+      }
+    }
+    &__email-link {
+      font-family: variables.$futuristic;
+      @include general-mixins.sendEmailButton();
+    }
+  }
+}

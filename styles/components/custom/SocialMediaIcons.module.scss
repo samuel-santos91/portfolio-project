@@ -1,0 +1,15 @@
+@use "../../partials/general-mixins";
+@use "../../partials/media-queries-mixins";
+
+.icons {
+    ul {
+      @include general-mixins.displayFlex(center, none);
+      list-style: none;
+      margin: 2rem 0 3rem 0;
+      padding: 0;
+      li {
+        margin: 0 1rem;
+        @include general-mixins.iconTag(translate(0, -7px));
+      }
+    }
+  }
