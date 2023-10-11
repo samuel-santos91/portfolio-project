@@ -3,13 +3,13 @@ import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
 import classes from "@/styles/components/Projects.module.scss";
-import image from "@/public/assets/projects/book_search_engine.png";
+import image from "@/public/assets/projects/e-commerce.png";
 
-const BookSearchEngine = () => {
+const ECommerce = () => {
   return (
     <main className={classes["project-section"]}>
       <a
-        href="https://samuel-santos91.github.io/google-books-api-search-engine/"
+        href="https://samuel-santos91.github.io/e-commerce-app/"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="fade-right"
@@ -18,10 +18,11 @@ const BookSearchEngine = () => {
         <Image className={classes.img} src={image} alt="webpage screenshot" />
       </a>
       <section className={classes.item}>
-        <h3 className={classes["item__title"]}>Google Books API Search Engine</h3>
+        <h3 className={classes["item__title"]}>
+          E-commerce App
+        </h3>
         <p className={classes["item__description"]}>
-          Application that fetches data from the Google Books API to display the
-          book cover and other details.
+          Full stack fake e-commerce platform that sells candles.
         </p>
         <ul className={classes["item__made-with"]}>
           <li
@@ -43,14 +44,14 @@ const BookSearchEngine = () => {
             data-aos-duration="1200"
             data-aos-anchor-placement="top-bottom"
           >
-            REST API
+            Firebase
           </li>
         </ul>
         <div className={classes["item__icons"]}>
           <ul>
             <li className={classes.github}>
               <a
-                href="https://github.com/samuel-santos91/google-books-api-search-engine"
+                href="https://github.com/samuel-santos91/e-commerce-app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -59,7 +60,7 @@ const BookSearchEngine = () => {
             </li>
             <li className={classes.webpage}>
               <a
-                href="https://samuel-santos91.github.io/google-books-api-search-engine/"
+                href="https://samuel-santos91.github.io/e-commerce-app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -73,4 +74,4 @@ const BookSearchEngine = () => {
   );
 };
 
-export default BookSearchEngine;
+export default ECommerce;

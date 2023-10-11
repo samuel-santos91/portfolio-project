@@ -10,6 +10,7 @@
     @include general-mixins.displayFlex(none, center);
     flex-direction: column;
     margin: variables.$top-section;
+    margin-bottom: 0;
     &__title {
       font-size: 1.5rem;
       color: variables.$regular-text;
@@ -33,6 +34,25 @@
     &__email-link {
       font-family: variables.$futuristic;
       @include general-mixins.sendEmailButton();
+    }
+  }
+
+  .built-with-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: variables.$regular-text;
+    font-size: .8rem;
+    position: relative;
+    bottom: -5rem;
+
+    &__img {
+      width: 1rem;
+      height: 1rem;
+      margin: .5rem;
+      border: 1px solid white;
+      border-radius: 50%;
+      background-color: variables.$regular-text;
     }
   }
 }

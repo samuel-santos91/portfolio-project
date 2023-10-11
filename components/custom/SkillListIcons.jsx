@@ -11,6 +11,7 @@ import node from "@/public/assets/skills/node.png";
 import express from "@/public/assets/skills/express.png";
 import mysql from "@/public/assets/skills/mysql.png";
 import next from "@/public/assets/skills/next.png";
+import firebase from "@/public/assets/skills/firebase.png";
 
 import classes from "@/styles/components/custom/SkillListIcons.module.scss";
 
@@ -195,6 +196,22 @@ const SkillListIcons = () => {
             MySQL
           </figcaption>
         </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--icons"]}
+            src={firebase}
+            alt="firebase"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            Firebase
+          </figcaption>
+        </div>
       </section>
 
       <section className={classes["skills-section"]}>
@@ -372,6 +389,22 @@ const SkillListIcons = () => {
           />
           <figcaption className={classes["skills-section__block--title"]}>
             MySQL
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--icons"]}
+            src={firebase}
+            alt="firebase"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            Firebase
           </figcaption>
         </div>
       </section>

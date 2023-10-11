@@ -1,5 +1,8 @@
+import Image from "next/image";
+
 import classes from "@/styles/components/Contact.module.scss";
 import SocialMediaIcons from "./custom/SocialMediaIcons";
+import next from "@/public/assets/skills/next.png";
 
 const Contact = () => {
   return (
@@ -40,6 +43,16 @@ const Contact = () => {
         </a>
 
         <SocialMediaIcons />
+      </section>
+      <section className={classes["built-with-section"]}>
+        <p className={classes["built-with-section__line"]}>
+          This portfolio was built with Next.js
+        </p>
+        <Image
+          className={classes["built-with-section__img"]}
+          src={next}
+          alt="next.js icon"
+        />
       </section>
     </footer>
   );
