@@ -46,8 +46,18 @@ const Contact = () => {
       </section>
       <section className={classes["built-with-section"]}>
         <p className={classes["built-with-section__line"]}>
-          This portfolio was built with Next.js
+          This{" "}
+          <a
+          className={classes["built-with-section__line--link"]}
+            href="https://github.com/samuel-santos91/portfolio-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            portfolio
+          </a>{" "}
+          was built with Next.js
         </p>
+
         <Image
           className={classes["built-with-section__img"]}
           src={next}
