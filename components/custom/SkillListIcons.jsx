@@ -12,6 +12,8 @@ import express from "@/public/assets/skills/express.png";
 import mysql from "@/public/assets/skills/mysql.png";
 import next from "@/public/assets/skills/next.png";
 import firebase from "@/public/assets/skills/firebase.png";
+import java from "@/public/assets/skills/java.png";
+import spring from "@/public/assets/skills/spring.png";
 
 import classes from "@/styles/components/custom/SkillListIcons.module.scss";
 
@@ -189,11 +191,27 @@ const SkillListIcons = () => {
         >
           <Image
             className={classes["skills-section__block--icons"]}
-            src={mysql}
-            alt="mysql"
+            src={java}
+            alt="java"
           />
           <figcaption className={classes["skills-section__block--title"]}>
-            MySQL
+            Java
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--express"]}
+            src={spring}
+            alt="spring boot"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            Spring 
           </figcaption>
         </div>
         <div
@@ -210,6 +228,22 @@ const SkillListIcons = () => {
           />
           <figcaption className={classes["skills-section__block--title"]}>
             Firebase
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--icons"]}
+            src={mysql}
+            alt="mysql"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            MySQL
           </figcaption>
         </div>
       </section>
@@ -384,11 +418,27 @@ const SkillListIcons = () => {
         >
           <Image
             className={classes["skills-section__block--icons"]}
-            src={mysql}
-            alt="mysql"
+            src={java}
+            alt="java"
           />
           <figcaption className={classes["skills-section__block--title"]}>
-            MySQL
+            Java
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--express"]}
+            src={spring}
+            alt="spring boot"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            Spring 
           </figcaption>
         </div>
         <div
@@ -405,6 +455,22 @@ const SkillListIcons = () => {
           />
           <figcaption className={classes["skills-section__block--title"]}>
             Firebase
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--icons"]}
+            src={mysql}
+            alt="mysql"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            MySQL
           </figcaption>
         </div>
       </section>

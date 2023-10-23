@@ -7,6 +7,7 @@ import Dictionary from "./project-components/Dictionary";
 import TaskList from "./project-components/TaskList";
 import BookSearchEngine from "./project-components/BookSearchEngine";
 import ECommerce from "./project-components/ECommerce";
+import Minesweeper from "./project-components/MineSweeper";
 
 const Projects = () => {
   return (
@@ -20,8 +21,9 @@ const Projects = () => {
         <PetSitting />
         <ECommerce/>
         <BookSearchEngine />
-        <TaskList />
         <Dictionary />
+        <Minesweeper/>
+        <TaskList />
         <FoodOrdering />
       </section>
 
