@@ -14,6 +14,7 @@ import next from "@/public/assets/skills/next.png";
 import firebase from "@/public/assets/skills/firebase.png";
 import java from "@/public/assets/skills/java.png";
 import spring from "@/public/assets/skills/spring.png";
+import nest from "@/public/assets/skills/nest.png";
 
 import classes from "@/styles/components/custom/SkillListIcons.module.scss";
 
@@ -191,6 +192,22 @@ const SkillListIcons = () => {
         >
           <Image
             className={classes["skills-section__block--icons"]}
+            src={nest}
+            alt="nest"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            Nest.js
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--icons"]}
             src={java}
             alt="java"
           />
@@ -211,7 +228,7 @@ const SkillListIcons = () => {
             alt="spring boot"
           />
           <figcaption className={classes["skills-section__block--title"]}>
-            Spring 
+            Spring
           </figcaption>
         </div>
         <div
@@ -227,7 +244,7 @@ const SkillListIcons = () => {
             alt="firebase"
           />
           <figcaption className={classes["skills-section__block--title"]}>
-            Firebase
+            Firestore
           </figcaption>
         </div>
         <div
@@ -418,6 +435,22 @@ const SkillListIcons = () => {
         >
           <Image
             className={classes["skills-section__block--icons"]}
+            src={nest}
+            alt="nest"
+          />
+          <figcaption className={classes["skills-section__block--title"]}>
+            Nest.js
+          </figcaption>
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="650"
+          data-aos-anchor-placement="top-bottom"
+          className={classes["skills-section__block"]}
+        >
+          <Image
+            className={classes["skills-section__block--icons"]}
             src={java}
             alt="java"
           />
@@ -438,7 +471,7 @@ const SkillListIcons = () => {
             alt="spring boot"
           />
           <figcaption className={classes["skills-section__block--title"]}>
-            Spring 
+            Spring
           </figcaption>
         </div>
         <div
@@ -454,7 +487,7 @@ const SkillListIcons = () => {
             alt="firebase"
           />
           <figcaption className={classes["skills-section__block--title"]}>
-            Firebase
+            Firestore
           </figcaption>
         </div>
         <div
