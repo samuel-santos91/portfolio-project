@@ -1,5 +1,4 @@
 # Portfolio Project
-Live Version: [sam-portfolio-project.vercel.app/](https://sam-portfolio-project.vercel.app/)
 
 ## Description 
 * This project was built to display my projects and technologies I have been working with.
