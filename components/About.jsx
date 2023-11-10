@@ -4,7 +4,7 @@ import classes from "@/styles/components/About.module.scss";
 import picture from "@/public/assets/profile/me.jpeg";
 
 import SocialMediaIcons from "./custom/SocialMediaIcons";
-import SkillListIcons from "./custom/SkillListIcons";
+import SkillListIcons from "../containers/SkillListIcons";
 
 const About = () => {
   return (
