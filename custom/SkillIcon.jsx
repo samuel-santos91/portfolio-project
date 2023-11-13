@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import classes from "../../containers/SkillListIcons/SkillListIcons.module.scss";
+import classes from "../containers/SkillListIcons/SkillListIcons.module.scss";
 
 const SkillIcon = ({img, title, style = "icons"}) => { 
     return (
