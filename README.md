@@ -3,29 +3,7 @@
 ## Live Version
 Link: <a>https://sam-portfolio-project.vercel.app/</a>
 
-## Description 
-* This project was built to display my projects and technologies I have been working with.
-* Built with <strong>Next.js</strong> and stylled with <strong>Sass</strong>.
-
-## About
-* There are four different sections in this webpage:
-  * Intro;
-  * About;
-  * Projects;
-  * Contact;
-* The Intro section displays my name and a summary of what I do;
-* The About section displays my picture and a summary of who I am and the technologies I have been working with;
-* The Projects section displays some of the projects built by me, a short description
-  and a link to the live version and GitHub repository;
-* The Contact section displays a link to my e-mail. <br><br>
-  
-* Some of the components throughout the webpage were animated with a library called AOS(Animate On Scroll);
-* There are some links throughout the webpage to my GitHub, LinkedIn and Instagram;
-* The navigation bar has got links to each section;
-* The webpage is fully responsive.
-
 ## Preview
-
 ### Intro
 <img width="500" alt="Screenshot 2023-09-01 at 15 54 09" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/ee8c6271-32de-40bd-a79d-45251681b817"> <br>
 
@@ -38,6 +16,30 @@ Link: <a>https://sam-portfolio-project.vercel.app/</a>
 
 ### Contact
 <img width="500" alt="Screenshot 2023-09-01 at 15 55 07" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/57c42af4-6a18-4b2c-92e9-1d7c6dd66802"> <br><br>
+
+## Description 
+### Purpose
+* This project was built to display my projects and technologies I have been working with.
+### Tech Stack
+* <strong>Next.js</strong> - deployed with Vercel
+* <strong>Sass</strong> - for better implementation of the styling
+
+## About
+### Sections
+* There are four different sections in this webpage:
+  * <strong>Intro</strong>;
+  * <strong>About</strong>;
+  * <strong>Projects</strong>;
+  * <strong>Contact</strong>;
+* The <strong>Intro</strong> section displays my name and a summary of what I do;
+* The <strong>About</strong> section displays my picture and a summary of who I am and the technologies I have been working with;
+* The <strong>Projects</strong> section displays some of the projects built by me, a short description and a link to the live version and GitHub repository;
+* The <strong>Contact</strong> section displays a link to my e-mail.
+### Features
+* Some of the components throughout the webpage were animated with a library called AOS(Animate On Scroll);
+* There are some links throughout the webpage to my GitHub, LinkedIn and Instagram;
+* The navigation bar has got links to each section;
+* The webpage is fully responsive.
 
 ## Prerequisites
 
