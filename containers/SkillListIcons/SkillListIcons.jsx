@@ -16,7 +16,7 @@ import nest from "@/public/assets/skills/nest.png";
 
 import classes from "./SkillListIcons.module.scss";
 
-import SkillIcon from "../../components/custom/SkillIcon";
+import SkillIcon from "../../custom/SkillIcon";
 
 const SkillListIcons = () => {
   return ( 

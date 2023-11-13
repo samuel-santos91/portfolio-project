@@ -1,16 +1,26 @@
 import { BsGithub } from "react-icons/bs";
+import { useEffect, useState } from "react";
 
 import classes from "./Projects.module.scss";
 
-import PetSitting from "../../components/project-components/PetSitting";
-import FoodOrdering from "../../components/project-components/FoodOrdering";
-import Dictionary from "../../components/project-components/Dictionary";
-import TaskList from "../../components/project-components/TaskList";
-import BookSearchEngine from "../../components/project-components/BookSearchEngine";
-import ECommerce from "../../components/project-components/ECommerce";
-import Minesweeper from "../../components/project-components/MineSweeper";
+import Project from "@/custom/Project";
 
 const Projects = () => {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const getList = async () => {
+      try {
+        const response = await fetch("data/projects.json");
+        const data = await response.json();
+        setData(data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    getList();
+  }, []);
+
   return (
     <main id="projects" className={classes.projects}>
       <section className={classes["section-header"]}>
@@ -19,13 +29,18 @@ const Projects = () => {
       </section>
 
       <section>
-        <PetSitting />
-        <ECommerce/>
-        <BookSearchEngine />
-        <Dictionary />
-        <Minesweeper/>
-        <TaskList />
-        <FoodOrdering />
+        {data &&
+          data.map((project) => (
+            <Project
+              key={project.id}
+              image={project.image}
+              title={project.title}
+              description={project.description}
+              stack={project.stack}
+              github={project.github}
+              liveProject={project.liveProject}
+            />
+          ))}
       </section>
 
       <section className={classes["visit-github-section"]}>
