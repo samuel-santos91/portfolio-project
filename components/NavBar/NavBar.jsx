@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import resume from "@/public/assets/pdf/resume.pdf";
-import classes from "@/styles/components/NavBar.module.scss";
+import classes from "./NavBar.module.scss";
 
 const NavBar = () => {
   const [position, setPosition] = useState(0); 

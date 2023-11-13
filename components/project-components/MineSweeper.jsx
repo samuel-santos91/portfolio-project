@@ -1,7 +1,7 @@
 import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
-import classes from "@/styles/components/Projects.module.scss";
+import classes from "../../containers/Projects/Projects.module.scss";
 import minesweeper from "@/public/assets/projects/minesweeper.png";
 
 const Minesweeper = () => {

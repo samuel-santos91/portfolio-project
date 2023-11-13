@@ -5,7 +5,7 @@ import { MdOutlineMail } from "react-icons/md";
 import React, { useState, useEffect } from "react";
 
 import resume from "@/public/assets/pdf/resume.pdf";
-import classes from "@/styles/components/NavBarMobile.module.scss";
+import classes from "./NavBarMobile.module.scss";
 
 const NavBarMobile = () => {
   const [position, setPosition] = useState(0);

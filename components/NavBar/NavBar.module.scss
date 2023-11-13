@@ -1,6 +1,6 @@
-@use "../partials/variables";
-@use "../partials/general-mixins";
-@use "../partials/media-queries-mixins";
+@use "../../styles/partials/variables";
+@use "../../styles/partials/general-mixins";
+@use "../../styles/partials/media-queries-mixins";
 
 .navigation {
   @include general-mixins.blurredBackground;

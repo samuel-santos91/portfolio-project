@@ -2,7 +2,7 @@ import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 
-import classes from "@/styles/components/custom/SocialMediaIcons.module.scss"
+import classes from "./SocialMediaIcons.module.scss"
 
 const SocialMediaIcons = () => {
   return (

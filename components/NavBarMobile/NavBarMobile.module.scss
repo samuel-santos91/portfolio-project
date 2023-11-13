@@ -1,6 +1,6 @@
-@use "../partials/variables";
-@use "../partials/general-mixins";
-@use "../partials/media-queries-mixins";
+@use "../../styles/partials/variables";
+@use "../../styles/partials/general-mixins";
+@use "../../styles/partials/media-queries-mixins";
 
 .header {
   @include general-mixins.positionFixed(0, none);

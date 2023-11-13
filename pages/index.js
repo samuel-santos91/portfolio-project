@@ -1,11 +1,11 @@
 import Head from "next/head";
 
-import NavBar from "@/components/NavBar";
-import NavBarMobile from "@/components/NavBarMobile";
-import Intro from "@/components/Intro";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
+import NavBar from "@/components/NavBar/NavBar";
+import NavBarMobile from "@/components/NavBarMobile/NavBarMobile";
+import Intro from "@/components/Intro/Intro";
+import About from "@/components/About/About";
+import Projects from "../containers/Projects/Projects";
+import Contact from "@/components/Contact/Contact";
 
 export default function Home() {
   return (

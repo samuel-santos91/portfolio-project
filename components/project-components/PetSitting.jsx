@@ -2,7 +2,7 @@ import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
 import petsitting from "@/public/assets/projects/pet_sitting.png";
-import classes from "@/styles/components/Projects.module.scss";
+import classes from "../../containers/Projects/Projects.module.scss";
 
 const PetSitting = () => {
   return (

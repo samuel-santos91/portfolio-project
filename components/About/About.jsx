@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import classes from "@/styles/components/About.module.scss";
+import classes from "./About.module.scss";
 import picture from "@/public/assets/profile/me.jpeg";
 
-import SocialMediaIcons from "./custom/SocialMediaIcons";
-import SkillListIcons from "../containers/SkillListIcons";
+import SocialMediaIcons from "../custom/SocialMediaIcons/SocialMediaIcons";
+import SkillListIcons from "../../containers/SkillListIcons/SkillListIcons";
 
 const About = () => {
   return (

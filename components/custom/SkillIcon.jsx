@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import classes from "@/styles/components/custom/SkillListIcons.module.scss";
+import classes from "../../containers/SkillListIcons/SkillListIcons.module.scss";
 
-const SkillIcon = ({img, title, style = "icons"}) => {
+const SkillIcon = ({img, title, style = "icons"}) => { 
     return (
         <div
         data-aos="zoom-in"

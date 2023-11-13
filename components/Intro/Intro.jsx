@@ -1,4 +1,4 @@
-import classes from "@/styles/components/Intro.module.scss";
+import classes from "./Intro.module.scss";
 
 const Intro = () => {
   return (

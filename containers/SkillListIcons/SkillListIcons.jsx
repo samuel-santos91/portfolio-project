@@ -14,12 +14,12 @@ import java from "@/public/assets/skills/java.png";
 import spring from "@/public/assets/skills/spring.png";
 import nest from "@/public/assets/skills/nest.png";
 
-import classes from "@/styles/components/custom/SkillListIcons.module.scss";
+import classes from "./SkillListIcons.module.scss";
 
-import SkillIcon from "../components/custom/SkillIcon";
+import SkillIcon from "../../components/custom/SkillIcon";
 
 const SkillListIcons = () => {
-  return (
+  return ( 
     //Sections have been duplicated to generate infinite carousel
     <div className={classes["animation-section"]}>
       <section className={classes["skills-section"]}>

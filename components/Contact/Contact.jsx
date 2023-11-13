@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import classes from "@/styles/components/Contact.module.scss";
-import SocialMediaIcons from "./custom/SocialMediaIcons";
+import classes from "./Contact.module.scss";
+import SocialMediaIcons from "../custom/SocialMediaIcons/SocialMediaIcons";
 import next from "@/public/assets/skills/next.png";
 
 const Contact = () => {

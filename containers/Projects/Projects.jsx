@@ -1,13 +1,14 @@
 import { BsGithub } from "react-icons/bs";
 
-import classes from "@/styles/components/Projects.module.scss";
-import PetSitting from "./project-components/PetSitting";
-import FoodOrdering from "./project-components/FoodOrdering";
-import Dictionary from "./project-components/Dictionary";
-import TaskList from "./project-components/TaskList";
-import BookSearchEngine from "./project-components/BookSearchEngine";
-import ECommerce from "./project-components/ECommerce";
-import Minesweeper from "./project-components/MineSweeper";
+import classes from "./Projects.module.scss";
+
+import PetSitting from "../../components/project-components/PetSitting";
+import FoodOrdering from "../../components/project-components/FoodOrdering";
+import Dictionary from "../../components/project-components/Dictionary";
+import TaskList from "../../components/project-components/TaskList";
+import BookSearchEngine from "../../components/project-components/BookSearchEngine";
+import ECommerce from "../../components/project-components/ECommerce";
+import Minesweeper from "../../components/project-components/MineSweeper";
 
 const Projects = () => {
   return (

@@ -2,7 +2,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
-import classes from "@/styles/components/Projects.module.scss";
+import classes from "../../containers/Projects/Projects.module.scss";
 import foodOrder from "@/public/assets/projects/foodorder.png";
 
 const FoodOrdering = () => {
