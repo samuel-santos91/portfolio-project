@@ -3,6 +3,13 @@
 ## Live Version
 Link: <a>https://sam-portfolio-project.vercel.app/</a>
 
+## Description 
+### Purpose
+* This project was built to display my projects and technologies I have been working with.
+### Tech Stack
+* <strong>Next.js</strong> - deployed with Vercel
+* <strong>Sass</strong> - for better implementation of the styling
+
 ## Preview
 ### Intro
 <img width="500" alt="Screenshot 2023-09-01 at 15 54 09" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/ee8c6271-32de-40bd-a79d-45251681b817"> <br>
@@ -16,13 +23,6 @@ Link: <a>https://sam-portfolio-project.vercel.app/</a>
 
 ### Contact
 <img width="500" alt="Screenshot 2023-09-01 at 15 55 07" src="https://github.com/samuel-santos91/portfolio-project/assets/107240729/57c42af4-6a18-4b2c-92e9-1d7c6dd66802"> <br><br>
-
-## Description 
-### Purpose
-* This project was built to display my projects and technologies I have been working with.
-### Tech Stack
-* <strong>Next.js</strong> - deployed with Vercel
-* <strong>Sass</strong> - for better implementation of the styling
 
 ## About
 ### Sections
