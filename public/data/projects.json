@@ -1,15 +1,24 @@
 [
   {
     "id": 1,
-    "image": "/assets/projects/pet_sitting.png",
-    "title": "Pet Sitting Services",
-    "description": "Full stack app that allows you to join as a customer or a sitter torequest or provide services for your or someone else's pet.",
-    "stack": ["React.js", "Tailwind", "Express.js", "TypeScript", "MySQL"],
-    "github": "https://github.com/samuel-santos91/pet-sitting-services-app",
+    "image": "/assets/projects/employee.png",
+    "title": "Employee Manager",
+    "description": "Management platform that allows you to save the employee's information into the database.",
+    "stack": ["Next.js", "TypeScript", "Spring", "Tailwind", "MySQL"],
+    "github": "https://github.com/samuel-santos91/employee-creator",
     "liveProject": null
   },
   {
     "id": 2,
+    "image": "/assets/projects/pet_sitting.png",
+    "title": "Pet Sitting Services",
+    "description": "Full stack app that allows you to join as a customer or a sitter torequest or provide services for your or someone else's pet.",
+    "stack": ["React.js", "TypeScript", "Tailwind", "Express.js", "MySQL"],
+    "github": "https://github.com/samuel-santos91/pet-sitting-services-app",
+    "liveProject": null
+  },
+  {
+    "id": 3,
     "image": "/assets/projects/e-commerce.png",
     "title": "E-commerce App",
     "description": "Full stack fake e-commerce platform that sells candles.",
@@ -18,7 +27,7 @@
     "liveProject": "https://samuel-santos91.github.io/e-commerce-app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "image": "/assets/projects/book_search_engine.png",
     "title": "Google Books API Search Engine",
     "description": "Application that fetches data from the Google Books API to display thebook cover and other details.",
@@ -27,7 +36,7 @@
     "liveProject": "https://samuel-santos91.github.io/google-books-api-search-engine/"
   },
   {
-    "id": 4,
+    "id": 5,
     "image": "/assets/projects/dictionary.png",
     "title": "Online Dictionary",
     "description": "Application that fetches data from an API to display the word'sdefinition, part of speech, phonetics and examples in a sentence.",
@@ -36,7 +45,7 @@
     "liveProject": "https://samuel-santos91.github.io/dictionary-app-api/"
   },
   {
-    "id": 5,
+    "id": 6,
     "image": "/assets/projects/minesweeper.png",
     "title": "Java CLI Minesweeper",
     "description": "Minesweeper game built with Java. Playable in the command line.",
@@ -45,21 +54,12 @@
     "liveProject": null
   },
   {
-    "id": 6,
+    "id": 7,
     "image": "/assets/projects/tasklist.png",
     "title": "Task Organizer",
     "description": "Application that creates and arranges a list of all the tasks to becompleted. Add, edit, delete or mark as completed, any of the items.",
     "stack": ["React.js", "TypeScript", "Sass"],
     "github": "https://github.com/samuel-santos91/task-list",
     "liveProject": "https://samuel-santos91.github.io/task-list/"
-  },
-  {
-    "id": 7,
-    "image": "/assets/projects/foodorder.png",
-    "title": "Food Ordering App",
-    "description": "Food ordering prototype that allows you to add your food choice to thecart, increase or remove the quantity and finalise the order.",
-    "stack": ["React.js", "Sass"],
-    "github": "https://github.com/samuel-santos91/food-ordering-app",
-    "liveProject": "https://samuel-santos91.github.io/food-ordering-app/"
   }
 ]
