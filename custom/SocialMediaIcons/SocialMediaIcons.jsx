@@ -34,19 +34,6 @@ const SocialMediaIcons = () => {
             <BsLinkedin size={30} aria-label="linkedin link" />
           </a>
         </li>
-        <li className={classes.instagram}>
-          <a
-            href="https://www.instagram.com/sam_bythesea/"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="600"
-            data-aos-anchor-placement="top-bottom"
-          >
-            <BsInstagram size={30} aria-label="instagram link" />
-          </a>
-        </li>
       </ul>
     </div>
   );

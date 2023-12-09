@@ -26,8 +26,13 @@ const Contact = () => {
           or
           <br />
           give me a shout on{" "}
-          <span className={classes["contact-main__para--highlight"]}>
-            social media
+          <span className={classes["contact-main__para--link"]}>
+            <a
+              href="https://www.linkedin.com/in/samuel-santos-webdev/"
+              target="_blank"
+            >
+              social media
+            </a>
           </span>
           .
         </p>
@@ -48,7 +53,7 @@ const Contact = () => {
         <p className={classes["built-with-section__line"]}>
           This{" "}
           <a
-          className={classes["built-with-section__line--link"]}
+            className={classes["built-with-section__line--link"]}
             href="https://github.com/samuel-santos91/portfolio-project"
             target="_blank"
             rel="noopener noreferrer"
