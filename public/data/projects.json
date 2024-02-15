@@ -28,6 +28,15 @@
   },
   {
     "id": 4,
+    "image": "/assets/projects/calendar.png",
+    "title": "Events Calendar",
+    "description": "Full stack application to manage events, meetings or tasks in a calendar.",
+    "stack": ["React.js", "TypeScript", "Spring", "Tailwind", "MySQL"],
+    "github": "https://github.com/samuel-santos91/events-calendar",
+    "liveProject": null
+  },
+  {
+    "id": 5,
     "image": "/assets/projects/book_search_engine.png",
     "title": "Google Books API Search Engine",
     "description": "Application that fetches data from the Google Books API to display thebook cover and other details.",
@@ -36,7 +45,7 @@
     "liveProject": "https://samuel-santos91.github.io/google-books-api-search-engine/"
   },
   {
-    "id": 5,
+    "id": 6,
     "image": "/assets/projects/dictionary.png",
     "title": "Online Dictionary",
     "description": "Application that fetches data from an API to display the word'sdefinition, part of speech, phonetics and examples in a sentence.",
@@ -45,7 +54,7 @@
     "liveProject": "https://samuel-santos91.github.io/dictionary-app-api/"
   },
   {
-    "id": 6,
+    "id": 7,
     "image": "/assets/projects/minesweeper.png",
     "title": "Java CLI Minesweeper",
     "description": "Minesweeper game built with Java. Playable in the command line.",
@@ -54,7 +63,7 @@
     "liveProject": null
   },
   {
-    "id": 7,
+    "id": 8,
     "image": "/assets/projects/tasklist.png",
     "title": "Task Organizer",
     "description": "Application that creates and arranges a list of all the tasks to becompleted. Add, edit, delete or mark as completed, any of the items.",
