@@ -6,7 +6,7 @@
     "description": "Management platform that allows you to save the employee's information into the database.",
     "stack": ["Next.js", "TypeScript", "Spring", "Tailwind", "MySQL"],
     "github": "https://github.com/samuel-santos91/employee-creator",
-    "liveProject": null
+    "liveProject": "https://employee-creator.vercel.app/"
   },
   {
     "id": 2,
