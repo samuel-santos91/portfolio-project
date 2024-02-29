@@ -15,7 +15,7 @@
     "description": "Full stack app that allows you to join as a customer or a sitter torequest or provide services for your or someone else's pet.",
     "stack": ["React.js", "TypeScript", "Tailwind", "Express.js", "MySQL"],
     "github": "https://github.com/samuel-santos91/pet-sitting-services-app",
-    "liveProject": null
+    "liveProject": "https://pet-sitting-service-app.netlify.app"
   },
   {
     "id": 3,
