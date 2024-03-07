@@ -12,7 +12,7 @@
     "id": 2,
     "image": "/assets/projects/pet_sitting.png",
     "title": "Pet Sitting Services",
-    "description": "Full stack app that allows you to join as a customer or a sitter torequest or provide services for your or someone else's pet.",
+    "description": "Full stack app that allows you to join as a customer or a sitter to request or provide services for your or someone else's pet.",
     "stack": ["React.js", "TypeScript", "Tailwind", "Express.js", "MySQL"],
     "github": "https://github.com/samuel-santos91/pet-sitting-services-app",
     "liveProject": "https://pet-sitting-service-app.netlify.app"
@@ -39,7 +39,7 @@
     "id": 5,
     "image": "/assets/projects/book_search_engine.png",
     "title": "Google Books API Search Engine",
-    "description": "Application that fetches data from the Google Books API to display thebook cover and other details.",
+    "description": "Application that fetches data from the Google Books API to display the book cover and other details.",
     "stack": ["React.js", "Sass", "REST API"],
     "github": "https://github.com/samuel-santos91/google-books-api-search-engine",
     "liveProject": "https://samuel-santos91.github.io/google-books-api-search-engine/"
@@ -48,7 +48,7 @@
     "id": 6,
     "image": "/assets/projects/dictionary.png",
     "title": "Online Dictionary",
-    "description": "Application that fetches data from an API to display the word'sdefinition, part of speech, phonetics and examples in a sentence.",
+    "description": "Application that fetches data from an API to display the word's definition, part of speech, phonetics and examples in a sentence.",
     "stack": ["React.js", "Sass", "REST API"],
     "github": "https://github.com/samuel-santos91/dictionary-app-api",
     "liveProject": "https://samuel-santos91.github.io/dictionary-app-api/"
@@ -66,7 +66,7 @@
     "id": 8,
     "image": "/assets/projects/tasklist.png",
     "title": "Task Organizer",
-    "description": "Application that creates and arranges a list of all the tasks to becompleted. Add, edit, delete or mark as completed, any of the items.",
+    "description": "Application that creates and arranges a list of all the tasks to be completed. Add, edit, delete or mark as completed, any of the items.",
     "stack": ["React.js", "TypeScript", "Sass"],
     "github": "https://github.com/samuel-santos91/task-list",
     "liveProject": "https://samuel-santos91.github.io/task-list/"
