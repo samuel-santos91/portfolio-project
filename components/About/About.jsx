@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import classes from "./About.module.scss";
-import picture from "@/public/assets/profile/me.jpeg";
+import picture from "@/public/assets/profile/blured.png";
 
 import SocialMediaIcons from "../../custom/SocialMediaIcons/SocialMediaIcons";
 import SkillListIcons from "../../containers/SkillListIcons/SkillListIcons";
