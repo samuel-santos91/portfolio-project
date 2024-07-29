@@ -30,11 +30,7 @@ const About = () => {
 
         <section className={classes["about-main__text"]}>
           <p data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-            Introducing me, a{" "}
-            <span className={classes["about-main__text--highlight"]}>
-              Brazilian
-            </span>{" "}
-            music lover who has moved to{" "}
+            Introducing me, a music lover who has moved to{" "}
             <span className={classes["about-main__text--highlight"]}>
               Australia
             </span>{" "}
